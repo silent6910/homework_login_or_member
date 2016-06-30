@@ -1,6 +1,20 @@
 # homework_login_or_member
 上課作業---登入或會員專頁
 
+前置條件:需要phpmyadmin,並且建立資料庫叫:test_for_homework
+
+並建立Table:Account     欄位:Account(char) Password(char) nickname(char)
+
+
+create database test_for_homework  character set  utf8;  
+
+use  test_for_homework;
+
+create table Account(Account char(20),Password char(20),nickname char(20));
+
+
+
+
 1:homework_index.php
 為首頁，有註冊、登入、會員專用頁功能
 
