@@ -5,12 +5,15 @@
 
 並建立Table:Account     欄位:Account(char) Password(char) nickname(char)
 
+「
 
 create database test_for_homework  character set  utf8;  
 
 use  test_for_homework;
 
 create table Account(Account char(20),Password char(20),nickname char(20));
+
+」
 
 
 
